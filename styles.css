@@ -1,0 +1,10 @@
+.flasher{
+	animation:flasherTxt 2s infinite;
+}
+@keyframes flasherTxt{
+	0%{		color: #000;	}
+	49%{	color: red;	}
+	50%{	color: red;	}
+	99%{	color: #000;	}
+	100%{	color: #000;	}
+}
